@@ -15,7 +15,7 @@ const forecast = (latitude,longitude,callback)=>{
                     temparature:response.body.currently.temperature,
                     precipProbability:response.body.currently.precipProbability
                 }*/
-                (body.daily.data[0].summary+"It is Currently "+body.currently.temperature+" degrees. There is a "+body.currently.precipProbability+"% of chance of rain")
+                (body.daily.data[0].summary+"It is Currently "+body.currently.temperature+" degrees. There is a "+body.currently.precipProbability+"% of chance of rain.The lowest temparature is "+body.daily.data[0].temperatureLow+" and the highest temparature is "+body.daily.data[0].temperatureHigh)
             )
         }
 
