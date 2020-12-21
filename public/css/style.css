@@ -16,7 +16,7 @@ body{
 }
 
 h1{
-    color:white;
+    color:rgb(129, 36, 80);
 }
 
 #form-box{
@@ -58,41 +58,104 @@ h1{
     width:100%;
 }
 
-/*img box*/
-#img-box{
-    width:500px;
-    height:550px;
-    border-radius: 20px;
-    background-image: url("../img/me.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-}
 
-#img-box:hover{
-    box-shadow: 0px 0px 2px 3px #888888;
-    margin:2px;
-}
 
-@media only screen and (max-width: 992px) {
-    #about-txt{
-        text-align: justify;
-    }
-    #about-txt br{
-        display: none;
-    }
-}
 
 #list-icon ul{
     border:none !important;
 }
 
-/*social icons*/
-.my-icon{
+
+/*font*/
+.ubuntu-txt{
+    font-family: 'Ubuntu', sans-serif;
+}
+.txt{
+    font-family: 'Nunito', sans-serif;
+}
+.roboto-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.f-size{
+    font-size: 18px;
+}
+
+/*help*/
+#help-con{
+    background-image: url("../img/help.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px !important;
+}
+/*login*/
+
+#main{
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px #323232;
+	margin-top:10%;
+	padding:20px;
+}
+
+ul li{
+    border:none;
+}
+
+#login{
+    margin-top:100px;
+}
+
+.important{
+    color:red;
+    font-size:15px;
+    font-weight: bold;
+}
+
+/*about us*/
+
+/*team memeber pics*/
+#team-member-pic-1{
+    width:200px;
+    height:200px;
+    background-image: url("../img/me.jpg");
+    border:1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin-top:-70px;
+    z-index: 100;
+}
+#team-member-pic-2{
+    width:200px;
+    height:200px;
+    background-image: url("../img/soumya.jpeg");
+    border:1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin-top:-70px;
+    z-index: 100;
+}
+.team-member-pics img{
+    width:200px;
+    height:200px;
+    background-size: cover;
+    border-radius: 50%;
+}
+/*team member pics*/
+/*code for card*/
+
+.card:hover{
+    margin-top:3px;
+    transition: 0.1s;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+/*code for card*/
+/*social */
+/*team social sites*/
+.client-icon{
     width:40px;
     height:40px;
     border:1px solid #ccc;
     padding-top:5px;
-    padding-left:6px;
     margin-top:10px;
     font-size:30px !important;
     color:black;
@@ -117,15 +180,8 @@ h1{
     color: white;
     border:1px solid #1DA1F2;
 }
-/*my social site*/
-
-/*font*/
-.ubuntu-txt{
-    font-family: 'Ubuntu', sans-serif;
-}
-.txt{
-    font-family: 'Nunito', sans-serif;
-}
-.roboto-font{
-    font-family: 'Roboto', sans-serif;
+#twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+    border:1px solid #1DA1F2;
 }

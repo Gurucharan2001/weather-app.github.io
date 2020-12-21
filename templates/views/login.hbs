@@ -1,5 +1,51 @@
 {{>header}}
     <div class="container center mt-3" >
-        <h1>Login</h1>
+        <!--Login-->
+        
+    <div class="dark d-flex align-items-center border-1 border-black">
+		<div class="container w-50" id="main" style="overflow: hidden;">
+			<h4>Login</h4>
+			<div class="row animated slideInRight">
+				<div class="col-12">
+					<div>
+						<div id="login">
+                            <form>
+							<div class="input-group mb-3">
+                                <div class="input-group-prepand">
+                                    <span class="input-group-text bg-danger text-light rounded-0">
+                                        <i class="fa fa-drivers-license" style="font-size:25px"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control border border-danger border-left-0"  name="user" placeholder="Username(That you are created)" id="first-name" required />
+                            </div>
+							<div class="input-group mb-3">
+                                <div class="input-group-prepand">
+                                    <span class="input-group-text bg-danger text-light rounded-0">
+                                        <i class="fa fa-lock" style="font-size:25px"></i>
+                                    </span>
+                                </div>
+                                <input type="password" class="form-control border border-danger border-left-0" placeholder="********" id="password" required />
+                            </div>
+                            <div class="input-group float-left">
+                                <p>or<a href="/signup"> Create an Account</a></p>
+                            </div>
+                            <button class="btn btn-info float-right">Login</button>
+
+                            </form>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="footer">
+                <p></p>
+            </div>
+		</div>
+		
     </div>
+
+    </div>
+        	<div class=" bg-dark text-light mb-0" style="margin:0;height:50px" id="footer">
+           
+            <h6 class="text-center mt-0">Developed by <span style='font-size:20px;color:red'>&#9829;</span> Gurucharan And Team</h6>
+        </div>
 {{>footer}}

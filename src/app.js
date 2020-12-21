@@ -75,6 +75,13 @@ app.get('/login',(req,res)=>{
     })
 })
 
+app.get('/signup',(req,res)=>{
+    res.render('signup',{
+        title:'signup',
+        content:'Create account'
+    })
+})
+
 //weather request!!!
 app.get('/weather',(req,res)=>{
     const address = req.query.address

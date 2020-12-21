@@ -1,4 +1,33 @@
 
      <script src="js/index.js"></script>
+     <script>
+
+
+function check_password(){
+    var pass = $("#password").val();
+    var con_pass = $("#confirm-password").val();
+    if(pass != con_pass)
+    {
+        $("#check-pass").html("Password Not Matched");
+       // $("#signup-btn").attr("disabled","disabled");
+    }
+    else{
+       // $("#signup-btn").removeAttr("disabled");
+        $("#check-pass").css({display: "none"});
+    }
+}
+
+
+document.querySelector("#signup-btn").onclick = function(e){
+			e.preventDefault();
+          alert("Signup Success !!");    
+}
+
+
+    document.querySelector("#signup-form").reset();  
+ 
+
+
+     </script>
 </body>
 </html>
